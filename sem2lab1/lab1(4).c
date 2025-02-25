@@ -102,10 +102,11 @@ int main() {
 
     measureSortingTime(N); // N = 100
     measureSortingTime(N2); // N = 10000
-    measueSortingTime(N3); // N = 100000
+    measureSortingTime(N3); // N = 100000
 
     printf("Размер данных: %lu bytes\n", N * sizeof(struct Student));
-    prinuf("Размер данных: %lu bytes\n", N2 * sizeof(struct Student));
+    printf("Размер данных: %lu bytes\n", N2 * sizeof(struct Student));
     printf("Размер данных: %lu bytes\n\n", N3 * sizeof(struct Student));
 
-    return o
+    return 0;
+}
